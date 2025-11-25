@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 4px solid red;
+    background-color: rgb(9, 9, 23);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px;
+
+}
+
+
+.review-form {
+    background-color: rgb(25, 142, 146);
+    padding: 32px;
+    border-radius: 16px;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.review {
+
+    > P{
+        font-weight: 800;
+    }
+
+    >textarea {
+        border-radius: 4px;
+        padding: 8px;
+        min-width: 100%;
+        max-width: 100%;
+        resize: none;
+    }
+}
+
+.review-row {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    
+    > label {
+        text-wrap: nowrap;
+        font-weight: 800;
+    }
+
+    > input {
+        width: 100%;
+        padding: 8px;
+    }
+
+    > button {
+        background-color: lightskyblue;
+        color: white;
+        padding: 8px;
+        border: none;
+        border-radius: 8px;
+
+    }
+}
+
