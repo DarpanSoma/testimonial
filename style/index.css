@@ -70,3 +70,21 @@ body {
     }
 }
 
+.reviews {
+    border: 1px solid white;
+    border-radius: 16px;
+    width: 100%;
+    padding: 32px;
+}
+
+.review-box {
+    background-color: rgb(192, 228, 251);
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 16ox;
+}
+
+.review-author {
+    font-weight: 800;
+}
